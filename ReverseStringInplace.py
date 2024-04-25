@@ -22,8 +22,8 @@ class Solution:
             index1 = index1 + 1
             index2 = index2 - 1
             
+            #Stop at the halfway point
             if (index1 >= math.ceil(len(s) / 2)):
-                print(index1)
                 break
             
         print(s)
